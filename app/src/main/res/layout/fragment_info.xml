@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.InfoFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:elevation="10dp"
+        android:background="#FFFFFF"
+        android:id="@+id/relativelay1">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#fff"
+            android:text="Save"
+            android:textColor="#000" />
+
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="387dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="22dp"
+            android:drawableStart="@drawable/ic_baseline_search_24"
+            android:layout_toRightOf="@id/save"
+            android:hint="Type hospital name"
+            android:textColor="#000"
+            android:imeOptions="actionSearch"
+            android:textSize="15sp" />
+    </RelativeLayout>
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relativelay1"
+        android:layout_marginTop="20dp"
+        tools:context=".MapsActivity" />
+
+
+</RelativeLayout>

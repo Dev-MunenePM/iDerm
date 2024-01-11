@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Res">
+
+
+
+
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Detectdiseasesuccess"
+        android:layout_below="@id/img"
+        android:text="Activity"
+        android:layout_centerInParent="true"
+        android:textSize="24dp"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@+id/Detectdiseasesuccess"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/editTextBackgroundColor"
+        android:id="@+id/textViewUploading"
+        android:layout_below="@+id/progressBar"
+        />
+
+    <EditText
+        android:id="@+id/editTextFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar"
+        android:background="@color/editTextBackgroundColor"
+        android:ems="10"
+        android:gravity="center"
+        android:visibility="gone"
+       android:layout_centerHorizontal="true"
+        android:hint="Owner Full Name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/editTextDocType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextFullName"
+        android:background="@color/editTextBackgroundColor"
+        android:ems="10"
+        android:gravity="center"
+        android:visibility="gone"
+        android:hint="Document Category"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/editTextDocNo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/editTextBackgroundColor"
+        android:ems="10"
+        android:layout_below="@+id/editTextDocType"
+        android:gravity="center"
+        android:hint="Identification Number"
+        android:inputType="text"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:textColor="@android:color/white"  />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextDocNo"
+        android:background="@color/btnColor"
+        android:text="Upload"
+        android:textColor="@android:color/white" />
+
+
+
+</RelativeLayout>

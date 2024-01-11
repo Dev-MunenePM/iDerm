@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+
+
+    <color name="purple_200">#0C0C0C</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="purple_500">#FF018786</color>
+    <color name="purple_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="skyBlue">#FF17A8EC</color>
+    <color name="colorPrimary">#0099ff</color>
+    <color name="colorPrimaryDark">#0099ff</color>
+    <color name="colorAccent">#273036</color>
+    <color name="colorRed">#BF007A</color>
+    <color name="activityBackgroundColor">#4A6E6A</color>
+    <color name="toolBarColor">@color/design_default_color_surface</color>
+
+    <color name="editTextBackgroundColor">@color/design_default_color_background</color>
+    #4CAF50
+    <color name="btnColor">#4CAF50</color>
+    <color name="deepBlue">#2D3C4D</color>
+    <color name="colorGre">#CAC8C8</color>
+    <color name="colorGrey">#E9EBEE</color>
+
+
+    <color name="card1">#d4cbe5</color>
+    <color name="card2">#7adccf</color>
+    <color name="card3">#f7c59f</color>
+    <color name="card4">#b8d7f5</color>
+    <color name="card5">#e27c6f</color>
+    <color name="card6">#c9e3db</color>
+    <color name="card7">#86d098</color>
+</resources>

@@ -1,0 +1,665 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#F7FFFFFF"
+    tools:context=".fragments.HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+
+        >
+        <TextView
+            style="@style/TextAppearance.AppCompat.Title"
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Skin Cancer"
+            />
+        <!-- Creating a subheader for your layout. -->
+        <TextView
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:id="@+id/subheader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Dermatology Specialised facilities in Kenya:"
+            />
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Kenyatta National Hospital"/>
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:id="@+id/body133"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nairobi Hospital"/>
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:id="@+id/body33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Mater Hospital"/>
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:id="@+id/body1333"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nairobi West Hospital"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:background="#F7FFFFFF"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollview2">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:gravity="center"
+                android:text="Melanoma Risk Factors"
+                />
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/body_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Skin cancers like melanoma have damaged DNA (mutations) in skin cells that lead to uncontrolled growth of these cells. Ultraviolet (UV) rays from the sun or tanning beds damage DNA in your skin cells. Your immune system repairs some of this damage but not all. Over time, the remaining DNA damage can lead to mutations that cause skin cancer. Many other factors also play a role in increasing the risk for melanoma, including genetics (family history), skin type or color, hair color, freckling and number of moles on the body."/>
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/body_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Understanding what causes melanoma and whether you’re at high risk of developing the disease can help you prevent it or detect it early when it is easiest to treat and cure."/>
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:gravity="center"
+                android:text="These factors increase your melanoma risk:"
+                />
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:text="Ultra Violet Radiation Exposure"
+                />
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="There is a clear correlation between unprotected exposure to UV radiation and melanoma. UV rays from the sun and indoor tanning are a powerful attack on the skin and the primary risk factor for developing melanoma and other skin cancers. Frequent severe sunburns in early childhood can especially increase melanoma risk, but sunburns later in life and cumulative exposure also play an important role."/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:text="Weakened Immune System"
+                />
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="If your immune system is weakened as the result of medical treatments, including chemotherapy or immunosuppressive therapy (commonly used after an organ transplant), or if you have a medical condition such as lymphoma or HIV that compromises the immune system, your risk of developing melanoma is higher."/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:text="Many Moles"
+                />
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Moles, the small brown “beauty marks” that arise on the skin throughout life are not dangerous, but people with many moles are at increased risk for developing melanoma. While most melanomas develop in normal skin and it’s less common for melanoma to develop in an existing mole, it does happen. About 20-30 percent of melanomas arise from existing moles.
+
+Atypical moles (some physicians call them dysplastic nevi) are often larger than a tip of a pencil eraser and can have irregular borders and multiple color hues. They can resemble melanoma but they are not cancerous or precancerous. People with many moles and those with many atypical moles are at very high risk for developing melanoma.
+
+Because melanoma can develop in a mole or can develop in normal skin, it is important to see your dermatologist if you see a new or changing mole."/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:text="Fair Skin"
+                />
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Although anyone can get melanoma, people with fairer skin – especially those with red or blond hair, blue or green eyes, or skin that freckles or easily burns – have a higher risk. If you don’t know your skin type, take the quiz and find out here."/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:text="Skin Cancer History"
+                />
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Previous skin cancer diagnoses also increase your risk for developing melanoma. If you’ve had melanoma already, you run a risk for recurrence. You also run a risk for developing new melanomas. If you’ve had squamous cell carcinoma or basal cell carcinoma, you are also more likely to develop melanoma at some point in your life."/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:text="Genetic Risk Factors"
+                />
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Melanoma can run in families. Compared to people with no family history of melanoma, each person with a first-degree relative diagnosed with melanoma has a greater chance of developing the disease."/>
+
+        </LinearLayout>
+    </ScrollView>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:background="#F7FFFFFF"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollview3">
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+        <TextView
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:text="Melanonma Warning Signs"
+            />
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:id="@+id/body_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Finding melanoma at an early stage is crucial; early detection can vastly increase your chances for cure.
+
+Look for anything new, changing or unusual on both sun-exposed and sun-protected areas of the body. Melanomas commonly appear on the legs of women, and the number one place they develop on men is the trunk. Keep in mind, though, that melanomas can arise anywhere on the skin, even in areas where the sun doesn’t shine.
+
+Most moles, brown spots and growths on the skin are harmless – but not always. The ABCDEs and the Ugly Duckling sign can help you detect melanoma."/>
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:text="The ABCDEs of Melanoma"
+            />
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:id="@+id/body_40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="The first five letters of the alphabet are a guide to help you recognize the warning signs of melanoma."/>
+        <TextView
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="A is for Asymmetry"
+            />
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Most melanomas are asymmetrical. If you draw a line through the middle of the lesion, the two halves don’t match, so it looks different from a round to oval and symmetrical common mole."/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/asymmetry"/>
+        <TextView
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="B is for Border"
+            />
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Melanoma borders tend to be uneven and may have scalloped or notched edges, while common moles tend to have smoother, more even borders."/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/border"/>
+        <TextView
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="C is for Color"
+            />
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Multiple colors are a warning sign. While benign moles are usually a single shade of brown, a melanoma may have different shades of brown, tan or black. As it grows, the colors red, white or blue may also appear."/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/color"/>
+        <TextView
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="D is for Diameter/Dark"
+            />
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text=" While it’s ideal to detect a melanoma when it is small, it’s a warning sign if a lesion is the size of a pencil eraser (about 6 mm, or ¼ inch in diameter) or larger. Some experts say it is also important to look for any lesion, no matter what size, that is darker than others. Rare, amelanotic melanomas are colorless."/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/diameter"/>
+        <TextView
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="E is for Evolving"
+            />
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Any change in size, shape, color or elevation of a spot on your skin, or any new symptom in it, such as bleeding, itching or crusting, may be a warning sign of melanoma."/>
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Before evolving"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/evolving_earlier"/>
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="After evolving"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/evolving_now"/>
+        <TextView
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:text="What you can do"
+            />
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:id="@+id/body_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text=" No matter your risk, examine your skin head-to-toe once a month to identify potential skin cancers early. Take note of existing moles or lesions that grow or change."/>
+    </LinearLayout>
+</ScrollView>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:background="#F7FFFFFF"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollview4">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout4"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:text="Melanonma Stages"
+                />
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="Diagnosis and Staging. What it Means for You."
+                />
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/body_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="To diagnose melanoma, two methods can be used. The first through visiting a dermatologist who takes a biopsy of the suspecious mole/lesion and then a laboratory test is carried out to determine whether there is presence of cancer cell in the sample taken. The other way a melanoma diagnosis can be made is through the use of image classification software specifically trained to detect cancerous moles through looking for the tell tale ABCDEs of melanoma.After the disease is diagnosed and the type of melanoma is identified, the next step is for your medical team to identify the stage of the disease. This may require additional tests including imaging such as PET scans, CT scans, MRIs and blood tests. The stage of melanoma is determined by several factors, including how much the cancer has grown, whether the disease has spread (metastasized) and other considerations. Melanoma staging is complex, but crucial. Knowing the stage helps doctors decide how to best treat your disease and predict your chances of recovery."/>
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="10sp"
+                android:text="What are the melanoma stages, and what do they mean"
+                />
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Early Melanomas"/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Stage 0 and I are localized, meaning they have not spread."/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Stage 0:"/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text=" Melanoma is localized in the outermost layer of skin and has not advanced deeper. This noninvasive stage is also called melanoma in situ."/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Stage I:"/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text=" The cancer is smaller than 1 mm in Breslow depth, and may or may not be ulcerated. It is localized but invasive, meaning that it has penetrated beneath the top layer into the next layer of skin. Invasive tumors considered stage IA are classified as early and thin if they are not ulcerated and measure less than 0.8 mm."/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Intermediate or high-risk melanomas"/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Stage II:"/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Intermediate, high-risk melanomas are tumors deeper than 1 mm that may or may not be ulcerated. Although they are not yet known to have advanced beyond the primary tumor, the risk of spreading is high, and physicians may recommend a sentinel lymph node biopsy (SLNB) to verify whether melanoma cells have spread to the local lymph nodes. Thicker melanomas, greater than 4.0 mm, have a very high risk of spreading, and any ulceration can move the disease into a higher subcategory of stage II. Because of that risk, the doctor may recommend more aggressive treatment."/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Advanced melanomas"/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Stage III:"/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="These tumors have spread to either the local lymph nodes or more than 2 cm away from the primary tumor through a lymph vessel but not yet to the local lymph nodes. Thickness no longer plays a staging role. If local lymph nodes are palpable, meaning they feel enlarged when examined by a doctor, the tumor has reached them, and they are removed. Sometimes melanoma is present even in lymph nodes that are not palpable.
+Sentinel lymph node biopsy (SLNB) is a technique used to determine whether the disease has spread to one or more nearby lymph nodes. Melanomas that have spread to very small areas of nearby skin or underlying tissue but have not reached the lymph nodes are known as “satellite tumors” — and are also included in stage III. The staging system includes metastases so tiny they can be seen only by microscope (micrometastases). The degree of disease advancement depends on whether the tumor has reached the nodes, the number of nodes involved, the number of cancer cells found in them and whether they are microscopic or are palpable and can be seen with the naked eye."/>
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Stage IV:"/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="The cancer has advanced to distant body areas, lymph nodes or organs, most often the lungs, liver, brain, bone and gastrointestinal tract. The two main ways to determine the degree of advancement in stage IV melanoma are the site of the distant tumors and the presence of elevated serum lactate dehydrogenase (LDH) levels. LDH is an enzyme that turns sugar into energy; the more found in blood or body fluids, the more damage has been done."/>
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:background="#F7FFFFFF"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollview5">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout5"
+            android:orientation="vertical"
+            android:visibility="gone"
+>
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:text="Melanoma Treatment"
+                />
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="While melanoma is one of the most dangerous forms of skin cancer, promising new treatment options are improving quality of life and increasing survival rates for patients with advanced melanoma.
+
+If you’ve been diagnosed, your treatment choices depend on the stage of the disease, the location of the tumor and your overall health. Options include:"
+                />
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="20sp"
+                android:text="Surgical removal of the melanoma"/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Immunotherapy"/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Targeted therapy"/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Chemotherapy"/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginBottom="15sp"
+                android:text="Radiation"/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Surgical removal of the melanoma"
+                />
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Tumors discovered at an early stage are confined to the upper layers of the skin and have no evidence of spread. These melanomas are treated by excisional surgery. Usually, this is the only treatment required. "/>
+
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Immunotherapy"/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Pioneering breakthroughs in immunotherapy — the use of medicines to stimulate a patient’s immune system to destroy cancer cells — have led to significant progress in treating patients with advanced melanoma.
+
+Immunotherapies boost the body’s ability to fight melanoma and other cancers by using synthetic versions of natural immune system proteins, or by enabling the release of cells that attack tumors. These therapies are effective when used alone or in combinations."/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Targeted therapies"/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Targeted therapies use drugs and other agents to attack melanoma by inhibiting the action of defective genes and molecules that play a role in accelerating the growth and spread of melanoma cells. When successful, these treatments halt or slow the progression of the disease and help patients live longer."/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Chemotherapy"/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Chemotherapy is a systemic approach to stopping tumor growth using certain medicines that either kill cancer cells or stop them from multiplying. It has never been proven to extend life for melanoma patients as a single therapy, however, and can have serious side effects."/>
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Radiation therapy"/>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Radiation is a localized treatment that directs high-energy X-ray beams to penetrate and destroy the tumors or keep them from growing. "/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
